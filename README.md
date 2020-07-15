@@ -15,9 +15,10 @@
         - Lists (Listas)
 
 Objetivos: Aprender los siguientes temas:
+
     - [x] Condicionales if, else, elif.
-    - [ ] Loops for, while.
-    - [ ] Collectiones (Set, Dictionary, Tuple, Lists)
+    - [x] Loops for, while.
+    - [x] Collectiones (Set, Dictionary, Tuple, Lists)
     - [ ] Arrays
     - [ ] Clases 
     - [ ] Funciones
