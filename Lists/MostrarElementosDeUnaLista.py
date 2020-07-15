@@ -1,15 +1,9 @@
-#Algoritmo que crea una lista con elementos, la recorre y muestra por pantalla sus elementos
+# List is a collection which is ordered and changeable. Allows duplicate members.
+# Una lista es una colección que está ordenada y mutable. Deposita miembros duplicados.
 
-"""
-There are four collection data types in the Python programming language:
+# Changeable: Cambiante/Cambiable, variable. # Unchangeable:  Inmutable.
 
-    - List is a collection which is ordered and changeable. Allows duplicate members.
-    - Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
-    - Set is a collection which is unordered and unindexed. No duplicate members.
-    - Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
-
-# Changeable: Cambiante. # Unchangeable: Incambiante - inmutable
-"""
+#Algoritmo que crea una lista con elementos, la recorre y muestra por consola sus elementos.
 
 lista = [1,2,3,4,5,6]
 
