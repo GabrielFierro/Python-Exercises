@@ -10,4 +10,10 @@ diccionario = {
 
 elemento = diccionario["Año"]
 
+print(elemento,"\n")
+
+# Puede resolverse utilizando el método get() de la siguiente forma
+
+elemento = diccionario.get("Año")
+
 print(elemento)
