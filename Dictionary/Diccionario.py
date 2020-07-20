@@ -12,3 +12,7 @@ diccionario = {
 }
 
 print(diccionario)
+
+# Para conocer la longitud del mismo, es decir cuantos pares de elementos (key-value) posee, uso la funcion len()
+
+print("El diccionario posee", len(diccionario), "pares de elementos")
