@@ -6,5 +6,7 @@ diccionario = {
     "Fecha de nacimiento": "07/10/2018"
 }
 
-if "Nombre" in diccionario:
-    print("La clave Nombre se encuentra en el diccionario")
+if "nombre" in diccionario:
+    print("La clave nombre se encuentra en el diccionario")
+else:
+    print("La clave nombre no se encuentra en el diccionario")
