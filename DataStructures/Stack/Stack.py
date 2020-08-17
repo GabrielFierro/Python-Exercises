@@ -14,8 +14,8 @@ print('The elements of stack:',una_pila)
 
 print('Elements poped from the stack:')
 
-una_pila.pop() # Deletes the top most element of the stack
-una_pila.pop() # Deletes the top most element of the stack
-una_pila.pop() # Deletes the top most element of the stack
+print(una_pila.pop()) # Deletes the top most element of the stack
+print(una_pila.pop()) # Deletes the top most element of the stack
+print(una_pila.pop()) # Deletes the top most element of the stack
 
 print('The elements of stack:',una_pila)
