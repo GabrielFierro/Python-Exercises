@@ -1,4 +1,5 @@
-# Algoritmo que invoca a la función es_par() pasandole como argumento un número, luego la función verifica si es par o impar el número, y retorna una cadena de caracteres que es mostrada por consola.
+# Algoritmo que invoca a la función es_par() pasandole como argumento un número, luego la función verifica si es par o impar el número.
+# Retorna una cadena de caracteres que es mostrada por consola.
 
 def es_par(num):
     res = ""
@@ -9,4 +10,4 @@ def es_par(num):
     return res
 
 print(es_par(2)) # Muestra por consola el resultado de invocar a la funcion es_par con el argumento 2
-print(es_par(11)) # Muestra por consola el resultado de invocar a la funcion es_par con el argumento 2
+print(es_par(11)) # Muestra por consola el resultado de invocar a la funcion es_par con el argumento 11
