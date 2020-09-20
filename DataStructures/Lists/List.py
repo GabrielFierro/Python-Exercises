@@ -1,6 +1,7 @@
+"Zona de declaración e inicialización de variable"
 my_list = []
 
-# Method append(): Adds an element at the end of the list
+# Método append(): Agrega un elemento al final de la lista.
 
 my_list.append('red')
 my_list.append('green')
@@ -8,31 +9,31 @@ my_list.append('blue')
 
 print(my_list)
 
-# Method pop(): Removes the last element 
+# Método pop(): Remueve el último elemento de la lista.
 
 my_list.pop() 
 
 print(my_list)
 
-# Method remove(): Removes the first element with the specified value
+# Método remove: Remueve el primer elemento de la lista, con un valor especificado.
 
 my_list.remove('green')
 
 print(my_list)
 
-# Method clear(): Removes all the elements 
+# Método clear(): Remueve todos los elementos de la lista.
 
 my_list.clear()
 
 print(my_list)
 
-# Method append(): Adds an element at the end of the list
+# Método append(): Agrega un elemento al final de la lista.
 
 my_list.append('red')
 my_list.append('green')
 my_list.append('blue')
 
-# Method copy()
+# Método copy(): Copia los elementos de una lista dada, en otra nueva.
 
 new_list = []
 
@@ -40,4 +41,3 @@ new_list = my_list.copy()
 
 print(my_list)
 print(new_list)
-

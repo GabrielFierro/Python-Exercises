@@ -1,5 +1,7 @@
 # Algoritmo que une dos conjuntos de elementos mediante el método update().
 
+"Zona de declaración e inicialización de variable"
+
 animals1 = {"cow", "tiger", "bear", "monkey", "squirrel", "fox", "raccoon"}
 animals2 = {"dog", "kangaroo", "koala bear", "panda", "zebra"}
 

@@ -1,5 +1,7 @@
 # Algoritmo que dadas dos estructuras de tipo List cargadas con elementos de tipo 'str', las muestra por consola mediante dos estructuras de tipo for anidadas.
 
+"Zona de declaración e inicialización de variable"
+
 list_of_colors = ["yellow", "orange", "red"]
 
 list_of_fruits = ["banana", "orange", "apple"]

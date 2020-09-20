@@ -1,5 +1,7 @@
 # Algoritmo que dado el número 12 determina si es un número par o impar, y muestra el resultado por consola. 
 
+"Zona de declaración e inicialización de variable"
+
 numero = 12 # Número par
 
 if numero % 2 == 0:

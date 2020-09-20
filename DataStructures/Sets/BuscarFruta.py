@@ -1,5 +1,7 @@
 # Algoritmo que checkea si un elemento específico se encuentra en el conjunto.
 
+"Zona de declaración e inicialización de variable"
+
 fruits = {"apple", "banana", "cherry"}
 
 # Los conjuntos no tienen índice, por lo que para acceder a sus elementos puedo usar la estructura for.

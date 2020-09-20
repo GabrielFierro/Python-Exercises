@@ -3,6 +3,7 @@
 # Función con un parámetro de tipo Lista que muestra por consola la cantidad de valores que dicha lista posee
 def my_function(my_list):
     
+    "Zona de declaración e inicialización de variable"
     cont = 0
 
     for x in my_list: 
@@ -13,6 +14,7 @@ def my_function(my_list):
 # Función con un parámetro de tipo Lista que retorna la cantidad de elementos que dicha lista posee
 def my_other_function(my_list):
     
+    "Zona de declaración e inicialización de variable"
     cont = 0
     
     for x in my_list:
@@ -20,7 +22,8 @@ def my_other_function(my_list):
     
     return cont
 
-# Zona de inicialización de variables
+"Zona de declaración e inicialización de variable"
+
 lista1 = [2,13,11,6,0,7]
 lista2 = [-1]
 

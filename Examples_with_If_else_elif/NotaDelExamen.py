@@ -1,5 +1,7 @@
 # Ejercicio donde el usuario carga una nota numérica <= 10 y se muestra un mensaje por consola.
 
+"Zona de declaración e inicialización de variable"
+
 nota = float(input("Ingrese la nota: "))
 
 if nota == 10:

@@ -1,6 +1,7 @@
 # Algoritmo que determina el dinero que obtendrá el vendedor a partir del sueldo base, más un 10% por sus 3 comisiones de ventas. Muestra el resultado por consola.
 
-# Zona de inicialización de variables.
+"Zona de declaración e inicialización de variable"
+
 sueldoBase = 0.0
 venta = 0.0
 unaVenta = 0.0

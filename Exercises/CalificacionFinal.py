@@ -1,6 +1,7 @@
 # Algoritmo que determina la calificación final, teniendo en cuenta 3 evaluaciones parciales, el examen final y un trabajo final. Muestra el resultado por consola.
 
-# Zona de inicialización de variables 
+"Zona de declaración e inicialización de variable"
+
 primerParcial = 0.0
 segundoParcial = 0.0
 tercerParcial = 0.0

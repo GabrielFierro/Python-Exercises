@@ -1,5 +1,7 @@
 # Algoritmo que dada una variable inicializada con el valor cero, muestre que valores son pares y cuales impares utilizando la estructura while.
 
+"Zona de declaración e inicialización de variable"
+
 numero = 0
 
 while numero <= 5:

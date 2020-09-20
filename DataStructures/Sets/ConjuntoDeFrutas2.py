@@ -1,5 +1,7 @@
 # Algoritmo que dada una estructura de tipo set cargada con elementos de tipo 'str', recorre el conjunto mediante la estructura for y muestra todos sus elementos.
 
+"Zona de declaración e inicialización de variable"
+
 fruits = {"apple", "banana", "cherry", "orange", "watermelon", "pear"}
 
 # Los conjuntos no tienen índice, por lo que para acceder a sus elementos puedo usar la estructura for.

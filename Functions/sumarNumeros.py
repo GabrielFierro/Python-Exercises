@@ -10,7 +10,8 @@ def suma(lista_de_numeros, longitud_lista):
 
     return resultado
 
-# Zona de inicialización de variables
+"Zona de declaración e inicialización de variable"
+
 resultado = 0
 lista_de_numeros = [2,7,4,23,77,14]
 longitud = len(lista_de_numeros)-1
