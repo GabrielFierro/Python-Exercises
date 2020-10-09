@@ -1,12 +1,6 @@
 import math
 
-#Algoritmo que pide al usuario dos números y muestra la “distancia” entre ellos (el valor absoluto de su diferencia, de modo que el resultado sea siempre positivo).
-
-# Zona de inicialización de variables.
-unNumero = 0
-otroNumero = 0
-resultado = 0
-valorAbsoluto = 0
+# Algoritmo que pide al usuario dos números y muestra la distancia entre ellos (el valor absoluto de su diferencia, de modo que el resultado sea siempre positivo).
 
 print("Ingrese un número")
 unNumero = int(input())

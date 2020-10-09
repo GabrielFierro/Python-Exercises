@@ -1,29 +1,20 @@
-# Algoritmo que determina el dinero que obtendrá el vendedor a partir del sueldo base, más un 10% por sus 3 comisiones de ventas. Muestra el resultado por consola.
-
-"Zona de declaración e inicialización de variable"
-
-sueldoBase = 0.0
-venta = 0.0
-unaVenta = 0.0
-otraVenta = 0.0
-comisionFinal = 0.0
-totalARecibir = 0.0
+# Algoritmo que determina el dinero que obtendrá el vendedor a partir del sueldo base, más un 10% por sus 3 comisiones de ventas. 
+# Muestra el resultado por consola.
 
 print("Ingrese el valor de su sueldo base")
 sueldoBase = float(input())
 
-print("Ingrese el valor de la 1er venta")
-venta = float(input())
+print("Ingrese el valor de la primera venta")
+primera_venta = float(input())
 
-print("Ingrese el valor de la 1er venta")
-unaVenta = float(input())
+print("Ingrese el valor de la segunda venta")
+segunda_venta = float(input())
 
-print("Ingrese el valor de la 1er venta")
-otraVenta = float(input())
+print("Ingrese el valor de la tercera venta")
+tercera_venta = float(input())
 
-comisionFinal = (venta*0.1) + (unaVenta*0.1) + (otraVenta*0.1)
+comisionFinal = (primera_venta*0.1) + (segunda_venta*0.1) + (tercera_venta*0.1)
 
 totalARecibir = sueldoBase + comisionFinal
 
 print("El valor final a recibir es " + str(totalARecibir))
-

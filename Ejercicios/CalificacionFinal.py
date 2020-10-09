@@ -1,16 +1,5 @@
-# Algoritmo que determina la calificación final, teniendo en cuenta 3 evaluaciones parciales, el examen final y un trabajo final. Muestra el resultado por consola.
-
-"Zona de declaración e inicialización de variable"
-
-primerParcial = 0.0
-segundoParcial = 0.0
-tercerParcial = 0.0
-examenFinal = 0.0
-trabajoFinal = 0.0
-calificacionFinal = 0.0
-promedioParciales = 0.0
-promedioExamenFinal = 0.0
-promedioTrabajoFinal = 0.0
+# Algoritmo que determina la calificación final, teniendo en cuenta 3 evaluaciones parciales, el examen final y un trabajo final. 
+# Muestra el resultado por consola.
 
 print("Ingrese la nota obtenida en el primer parcial")
 primerParcial = float(input())

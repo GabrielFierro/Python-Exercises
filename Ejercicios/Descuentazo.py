@@ -2,8 +2,6 @@
 
 # Zona de inicialización de variables
 descuento = 0.15
-valorCompra = 0.0
-valorFinal = 0.0
 
 print("Ingrese el valor final de la compra")
 valorCompra = float(input())
