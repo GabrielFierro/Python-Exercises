@@ -1,9 +1,5 @@
 # Algoritmo que dados dos números realiza las operaciones de suma, resta, multiplicación y división entre ambos.
-
-# Zona de inicialización de variables
-numero = 0.0
-otroNumero = 0.0
-resultado = 0.0
+# Por último muestra por pantalla el resultado de operar los números con los operandos.
 
 print("Ingrese el valor de un número")
 numero = int(input())

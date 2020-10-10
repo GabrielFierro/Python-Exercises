@@ -1,11 +1,5 @@
 #Algoritmo que le solicita al usuario el nombre y apellido, y muestra por consola las iniciales de cada string mencionado.
 
-# Zona de inicialización de variables
-nombre = ""
-apellido = ""
-inicialNombre = ""
-inicialApellido = ""
-
 print("Ingrese su nombre")
 nombre = input()
 

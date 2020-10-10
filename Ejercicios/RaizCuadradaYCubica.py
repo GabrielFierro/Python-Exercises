@@ -2,11 +2,6 @@ import math
 
 # Algoritmo que le solicita al usuario que ingrese un número, y muestra por consola la raíz cuadrada y cúbica respectivamente, del valor ingresado.
 
-# Zona de inicialización de variables
-numero = 0
-raizCuadrada = 0.0
-raizCúbica = 0.0
-
 print("Ingrese un número")
 numero = int(input())
 

@@ -1,5 +1,5 @@
 # Algoritmo que contiene ejemplos de while anidados con condicionales if-else-elif
-# El usuario ingresa la palabra "empezar" para continuar con el programa. Si ingresó dicha palabra, se le mostrará un menú de opciones.
+# El algoritmo le solicita al usuario que ingrese la palabra 'empezar' para operar con un menú de opciones.
 
 inicio = input("Escribe empezar para iniciar el programa: ")
 

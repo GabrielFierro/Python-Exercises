@@ -1,10 +1,5 @@
 #Algoritmo que le solicita al usuario que ingrese un valor A y otro valor B, e intercambia los valores de dichas variables y los muestra por consola.
 
-# Zona de inicialización de variables
-unNumero = 0.0
-otroNumero = 0.0
-auxiliar = 0.0
-
 print("Ingrese un número")
 unNumero = float(input())
 
