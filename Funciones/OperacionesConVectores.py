@@ -8,20 +8,25 @@ def sumar_vectores(primer_componente_de_u, segunda_componente_de_u, primer_compo
 
     y = segunda_componente_de_u + segunda_componente_de_v
 
-    vector = (x,y)
+    vector = (x,y)  # Le asigna a la variable vector, la tupla resultante de sumar las correspondientes componentes de los vectores
 
     return vector
 
 
 print('Ingrese la primer componente del vector u')
 primer_comp_de_u = float(input()) 
+
 print('Ingrese la segunda componente del vector u')
 segunda_comp_de_u = float(input()) 
+
 print('Ingrese la primer componente del vector v')
 primer_comp_de_v = float(input()) 
+
 print('Ingrese la segunda componente del vector v')
 segunda_comp_de_v = float(input()) 
 
-resultado = sumar_vectores(primer_comp_de_u, segunda_comp_de_u, primer_comp_de_v, segunda_comp_de_v)
+resultado = sumar_vectores(primer_comp_de_u, segunda_comp_de_u, primer_comp_de_v, segunda_comp_de_v) # Almacena en la variable resultado, la tupla resultante de ejecutar la función "sumar_vectores()"
+
+# Muestra por pantalla los vectores previamente ingresados, y el vector resultante de invocar la función "sumar_vectores()"
 
 print("El resultado de sumar las componentes de los vectores ("+str(primer_comp_de_u)+","+str(segunda_comp_de_u)+") y ("+str(primer_comp_de_v)+","+str(segunda_comp_de_v)+") es: {}".format(resultado))
