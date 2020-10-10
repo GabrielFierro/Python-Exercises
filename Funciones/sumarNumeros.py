@@ -1,7 +1,11 @@
 # Algoritmo que invoca a la función suma con una lista junto a su longitud como sus argumentos.
-# La función retorna el resultado de sumar los elementos de dicha lista, en forma recursiva.
 
 def suma(lista_de_numeros, longitud_lista):
+
+    '''
+    Función que dada una lista de elementos junto a su longitud que recibe por parámetro,
+    suma los elementos que dicha lista posee y, retorna el resultado.
+    '''
 
     if longitud_lista == 0:
         resultado = lista_de_numeros[0]
@@ -10,7 +14,7 @@ def suma(lista_de_numeros, longitud_lista):
 
     return resultado
 
-"Zona de declaración e inicialización de variable"
+"Zona de declaración e inicialización de variables"
 
 resultado = 0
 lista_de_numeros = [2,7,4,23,77,14]

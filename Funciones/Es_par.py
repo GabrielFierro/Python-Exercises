@@ -1,10 +1,9 @@
 # Algoritmo que invoca a la función es_par() pasandole como argumento un número, luego la función verifica si es par o impar el número.
-# Retorna una cadena de caracteres que es mostrada por consola.
-
-"Zona de declaración e inicialización de variable"
 
 def es_par(num):
-    res = ""
+
+    # Función que dado un elemento que recibe por parámetro, determina si es par o no, y retorna una cadena de caracteres.
+    
     if num % 2 == 0:
         res = 'El numero es par'
     else:
