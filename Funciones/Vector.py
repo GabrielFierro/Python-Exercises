@@ -1,8 +1,11 @@
 import math
 
+# Algoritmo que determina la norma de un vector definido en R2
+
 def calcular_norma(x,y):
 
     # Función que dados dos valores que recibe por parámetro, calcula la norma del vector y retorna el resultado.
+    
     discriminante = (x*x) + (y*y)
 
     norma = math.sqrt(discriminante)
