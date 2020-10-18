@@ -1,40 +1,16 @@
 # Algoritmo que dada unca cadena de caracteres que el usuario ingresa, invoca a la funcion remover_vocales.
 
 def remover_vocales(cadena):
-    
-    # Función que dada una cadena de caracteres, verifica si posee vocales y, en caso afirmativo las elimina de dicha cadena, retornando una nueva cadena sin vocales.
+
+    # Función que dada una cadena de caracteres que recibe por parámetro, determina si posee vocales y en caso afirmativo, procede a eliminar las vocales.
     
     # Zona de inicialización de variable
-    res = ''
+    vocales = 'aeiouAEIOU' # Declaro una variable con las vocales
 
-    for i in range(0,len(cadena)):
-        
-        # Recorre la cadena buscando vocales, si las encuentra las reemplaza por una cadena vacía
+    for v in vocales:
+        cadena = cadena.replace(v, '')
 
-        if cadena[i] == 'a':
-            res = res + ''
-        elif cadena[i] == 'A':
-            res = res + ''
-        elif cadena[i] == 'e':
-            res = res + ''
-        elif cadena[i] == 'E':
-            res = res + ''
-        elif cadena[i] == 'i':
-            res = res + ''
-        elif cadena[i] == 'I':
-            res = res + ''
-        elif cadena[i] == 'o':
-            res = res + ''
-        elif cadena[i] == 'O':
-            res = res + ''
-        elif cadena[i] == 'u':
-            res = res + ''
-        elif cadena[i] == 'U':
-            res = res + ''
-        else:
-            res = res + cadena[i]
-        
-    return res
+    return cadena
 
 
 # Ingreso de datos por parte del usuario
